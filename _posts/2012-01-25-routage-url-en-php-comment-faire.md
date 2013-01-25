@@ -149,15 +149,15 @@ Un peu plus à expliqué ici :
 
 On commence par définir quelques constantes pour le bon fonctionnement du
 script. Viens ensuite une partie importante qui est celle de la récupération
-de la requête entrante grâce à la variable $_SERVER['REQUEST_URI'] (_Si vous
+de la requête entrante grâce à la variable $_SERVER['REQUEST_URI'] (Si vous
 ne connaissez pas cette variable, je vous renvoie vers une recherche google
-sur le thème des Variables Superglobales en PHP_ )
+sur le thème des Variables Superglobales en PHP)
 
 On sépare ensuite nos différents éléments avec la fonction **explode** pour
 récupérer deux éléments important :
 
-  * Le nom du contrôleur à appeler
-  * Le nom de la fonction à exécuter
+* Le nom du contrôleur à appeler
+* Le nom de la fonction à exécuter
 
 On pratique ensuite une série de tests pour être sûres que notre contrôleur
 existe, et que la fonction visée est utilisable. On instancie ensuite notre
@@ -171,7 +171,7 @@ l'utilisation du pattern MVC, mais il manquerais bien des choses pour ce que
 soit réellement intéressant. Je vous laisse faire des recherches et modifier
 le script selon vos envies. Une première amélioration serait d'intégrer
 l'autoloading rendu possible avec la présence de
-[SPL](http://fr.php.net/manual/fr/intro.spl.php)  _(Standard PHP Library)
-_ou/et encore un système automatisé de gestion des vues. Bien du travail en
+[SPL](http://fr.php.net/manual/fr/intro.spl.php)(Standard PHP Library)
+ou/et encore un système automatisé de gestion des vues. Bien du travail en
 perspective pour arriver à un système complet et flexible. A défaut de temps,
 il y a toujours [Symfony](http://http://www.symfony.com)
