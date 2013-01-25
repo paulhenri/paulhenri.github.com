@@ -3,12 +3,6 @@ date: 2013-12-25 20:39:00
 layout: default
 slug: routage-url-en-php-comment-faire
 title: Routage d'URL en PHP - Comment faire ?
-categories:
-- Web Development
-tag:
--PHP5
--URI
--URL
 ---
 
 
