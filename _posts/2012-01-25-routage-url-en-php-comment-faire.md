@@ -3,6 +3,12 @@ date: 2013-12-25 20:39:00
 layout: default
 slug: routage-url-en-php-comment-faire
 title: Routage d'URL en PHP - Comment faire ?
+categories:
+- Web Development
+tag:
+-PHP5
+-URI
+-URL
 ---
 
 
@@ -21,7 +27,7 @@ loin. Considérez cet article comme un introduction imagée au routage d'URL =)
 
 Commençons par voir comment le système va se matérialiser. Un exemple concret
 est le meilleur moyen de visualiser la solution finale. Nous allons dans un
-premier temps partir du besoin «&nbsp_place_holder;client&nbsp_place_holder;»
+premier temps partir du besoin «client»
 pour voyager vers la réalisation technique d'une solution.
 
 ### Le besoin
@@ -35,8 +41,8 @@ de son profil à un utilisateur Y. Il lui donne alors l'adresse : [http://site.
 domaine/voir_user.php?pseudo=xXxX](http://site.domaine/voir_user.php?pseudo=xX
 xX)
 
-Difficile à retenir non ? Une URL plus «&nbsp_place_holder;user-
-friendly&nbsp_place_holder;» sera plus adaptée, par exemple :
+Difficile à retenir non ? Une URL plus «user-
+friendly» sera plus adaptée, par exemple :
 [http://site.domaine/profil/xXxX](http://site.domaine/profil/xXxX)
 
 Mais ceci n'est qu'un aspect de notre besoin. Naturellement, dans une optique
