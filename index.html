@@ -4,5 +4,9 @@ title: Accueil
 header: Pages
 group: navigation
 ---
-
+ {% for post in paginator.posts %}
+        {{ post.date | date: "%d %B, %Y" }}
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        </li>
+        {% endfor %}
 
